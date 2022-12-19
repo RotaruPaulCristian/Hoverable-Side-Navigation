@@ -1,0 +1,41 @@
+/* Style the links inside the sidenav */
+.sidenav-container a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+/* On hover, make the elements appear as they should */
+.sidenav-container a:hover {
+  left: 0;
+}
+
+/* The "about" link */
+.about {
+  top: 20px;
+  background-color: #04aa6d;
+}
+
+/* "blog" link */
+.blog {
+  top: 80px;
+  background-color: #2196f3;
+}
+
+/* "projects" link */
+.projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+/* "contact" link */
+.contact {
+  top: 200px;
+  background-color: #555;
+}
