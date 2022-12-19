@@ -39,3 +39,10 @@
   top: 200px;
   background-color: #555;
 }
+
+/* Display full buttons on small screens */
+@media (max-width: 1000px) {
+  .sidenav-container a {
+    left: 0;
+  }
+}
